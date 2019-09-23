@@ -8,13 +8,11 @@ class Calculation{
     public:
         Calculation();                  //コンストラクタ
         void setNum1(double num);       //１つ目の数を設定
-        void setNum2(double num);       //
-        double getNum1();               //
-        double getNum2();               //
-        double add();                   //
-        double sub();                   //
-        double mul();                   //
-        double div();                   //
+        void setNum2(double num);       //２つ目の数を設定
+        double add();                   //加算
+        double sub();                   //減算
+        double mul();                   //乗算
+        double div();                   //除算
 };
 
 #endif // _CALC_H_

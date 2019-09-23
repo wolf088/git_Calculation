@@ -9,37 +9,27 @@ void Calculation::setNum1(double num){
     num1 = num;
 }
 
-//
+//２つ目の数を設定
 void Calculation::setNum2(double num){
     num2 = num;
 }
 
-//
-double Calculation::getNum1(){
-    return num1;
-}
-
-//
-double Calculation::getNum2(){
-    return num2;
-}
-
-//
+//加算
 double Calculation::add(){
     return num1 + num2;
 }
 
-//
+//減算
 double Calculation::sub(){
     return num1 - num2;
 }
 
-//
+//乗算
 double Calculation::mul(){
     return num1 * num2;
 }
 
-//
+//除算
 double Calculation::div(){
     return num1 / num2;
 }
